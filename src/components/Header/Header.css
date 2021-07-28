@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  align-items: center;
+}
+
+.header.active {
+  background-color: var(--dark-blue);
+}
+
+@media (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+}
