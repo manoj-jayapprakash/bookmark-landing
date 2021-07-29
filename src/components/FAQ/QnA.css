@@ -1,0 +1,30 @@
+.qna__item {
+  border-bottom: 1px solid hsla(229, 8%, 60%, 30%);
+  margin: auto 0.5rem;
+}
+
+.question {
+  color: var(--dark-blue);
+  font-weight: 400;
+}
+
+.question-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.answer-wrapper {
+  padding: 1rem 0;
+}
+
+.answer {
+  line-height: 2;
+}
+
+@media (min-width: 768px) {
+  .qna__item:first-child {
+    border-top: 1px solid hsla(229, 8%, 60%, 30%);
+  }
+}

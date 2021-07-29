@@ -1,0 +1,15 @@
+.faq {
+  text-align: center;
+}
+
+.faqs {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .faqs {
+    width: 50%;
+    margin: 2rem auto;
+  }
+}

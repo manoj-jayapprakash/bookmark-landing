@@ -8,6 +8,11 @@
   min-height: 100vh;
 }
 
+.section__head {
+  text-align: center;
+  margin-top: 5rem;
+}
+
 .section__title,
 .section__description {
   margin: 1rem 0;
@@ -19,6 +24,10 @@
   border-radius: 5px;
   box-shadow: var(--shadow);
   color: var(--white);
+}
+
+.hidden {
+  display: none !important;
 }
 
 @media (min-width: 768px) {
