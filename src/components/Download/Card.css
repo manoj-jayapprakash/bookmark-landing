@@ -1,0 +1,22 @@
+.card {
+  box-shadow: 0 10px 20px -5px hsla(231, 69%, 60%, 20%);
+  border-radius: 15px;
+  height: 40vh;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 85%;
+}
+
+.card-dots {
+  background: url('../../assets/images/bg-dots.svg');
+  border: none;
+  height: 5px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 25%;
+  }
+}

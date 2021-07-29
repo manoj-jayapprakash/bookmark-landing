@@ -42,7 +42,7 @@ export const Features = () => {
 
   return (
     <section className="features container">
-      <div className="features__head">
+      <div className="section__head">
         <h2 className="section__title">Features</h2>
         <p className="section__description">
           Our aim is to make it quick and easy for you to access your favourite
@@ -50,7 +50,7 @@ export const Features = () => {
           them on the go.
         </p>
       </div>
-      <div className="features__body">
+      <div className="section__body">
         <div className="features__tab">
           <button
             className={

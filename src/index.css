@@ -27,7 +27,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: var(--dark-blue);
   font-weight: 500;
 }
