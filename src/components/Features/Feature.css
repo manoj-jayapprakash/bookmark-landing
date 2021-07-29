@@ -1,0 +1,27 @@
+.feature__content {
+  margin: 2rem 0;
+}
+
+.feature__text-title,
+.feature__text-description {
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .feature__content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+
+  .feature__image,
+  .feature__text {
+    width: 45%;
+  }
+
+  .feature__text {
+    text-align: left;
+    align-self: center;
+  }
+}

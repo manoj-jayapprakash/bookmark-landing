@@ -7,3 +7,24 @@
 .app {
   min-height: 100vh;
 }
+
+.section__title,
+.section__description {
+  margin: 1rem 0;
+}
+
+.btn-blue {
+  background-color: var(--primary-blue);
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .section__title,
+  .section__description {
+    width: 50%;
+    margin: 1rem auto;
+  }
+}

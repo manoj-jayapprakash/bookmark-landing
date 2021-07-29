@@ -22,7 +22,7 @@ html {
 body {
   font-family: 'Rubik', sans-serif;
   color: var(--grayish-blue);
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
@@ -39,6 +39,8 @@ a {
 button {
   border: none;
   background-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 li {
@@ -51,6 +53,6 @@ img {
 
 @media (min-width: 768px) {
   body {
-    font-size: 125%;
+    font-size: 18px;
   }
 }
