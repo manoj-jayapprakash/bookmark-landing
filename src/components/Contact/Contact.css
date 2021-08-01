@@ -1,0 +1,104 @@
+.contact {
+  margin-top: 5rem;
+  background-color: var(--primary-blue);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.contact__title,
+.contact__description {
+  color: var(--white);
+}
+
+.contact__title {
+  margin-bottom: 2rem;
+}
+
+.contact__description {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.email__field {
+  position: relative;
+}
+
+.email,
+.btn-contact {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  position: relative;
+}
+
+.email {
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  border: none;
+
+  display: inline-block;
+}
+
+.email::placeholder {
+  color: var(--grayish-blue);
+}
+
+.email-error {
+  border: 2px solid var(--primary-red);
+}
+
+.error-msg {
+  position: absolute;
+  background-color: var(--primary-red);
+  color: var(--white);
+  top: 43px;
+  right: 141px;
+  bottom: 31px;
+  left: 0;
+  font-size: 0.7rem;
+  padding: 0.25em;
+  padding-left: 1em;
+  height: 25px;
+  text-align: left;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+}
+
+.btn-contact {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 4rem 0;
+  }
+
+  .contact__body {
+    width: 25%;
+  }
+  .contact__title {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .email {
+    width: 60%;
+  }
+
+  .error-msg {
+    width: 60.25%;
+    top: 59px;
+    left: 13px;
+  }
+
+  .btn-contact {
+    margin-left: 1rem;
+    width: 30%;
+  }
+}

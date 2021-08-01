@@ -15,10 +15,9 @@ function App() {
       <Hero />
       <Features />
       <Download />
-
       <FAQ />
-      {/*
       <Contact />
+      {/*
       <Footer /> */}
     </div>
   );

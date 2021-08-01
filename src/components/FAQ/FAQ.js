@@ -43,7 +43,7 @@ export const FAQ = () => {
           <QnA key={q.id} question={q.question} answer={q.answer} />
         ))}
       </div>
-      <button className="btn-blue">More Info</button>
+      <button className="btn btn-blue">More Info</button>
     </section>
   );
 };

@@ -18,12 +18,36 @@
   margin: 1rem 0;
 }
 
-.btn-blue {
-  background-color: var(--primary-blue);
+.btn {
   padding: 1em 1.5em;
   border-radius: 5px;
   box-shadow: var(--shadow);
   color: var(--white);
+  border: 2px solid transparent;
+}
+
+.btn-blue {
+  background-color: var(--primary-blue);
+}
+
+.btn-red {
+  background-color: var(--primary-red);
+}
+
+.btn-blue:hover {
+  border: 2px solid var(--primary-blue);
+  background-color: var(--white);
+  color: var(--primary-blue);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-red:hover {
+  border: 2px solid var(--primary-red);
+  background-color: var(--white);
+  color: var(--primary-red);
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .hidden {

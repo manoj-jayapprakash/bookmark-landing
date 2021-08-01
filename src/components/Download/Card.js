@@ -16,7 +16,7 @@ export const Card = (props) => {
       </div>
       <hr className="card-dots" />
       <div className="card__actions">
-        <button className="btn-blue">Add & Install Extension</button>
+        <button className=" btn btn-blue">Add & Install Extension</button>
       </div>
     </div>
   );

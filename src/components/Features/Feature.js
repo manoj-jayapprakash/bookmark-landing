@@ -9,7 +9,7 @@ export const Feature = (props) => {
       <div className="feature__text">
         <h2 className="feature__text-title">{props.title}</h2>
         <p className="feature__text-description">{props.description}</p>
-        <button className="btn-blue btn-features">More Info</button>
+        <button className="btn btn-blue btn-features">More Info</button>
       </div>
     </div>
   );
