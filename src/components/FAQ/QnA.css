@@ -1,11 +1,7 @@
-.qna__item {
-  border-bottom: 1px solid hsla(229, 8%, 60%, 30%);
-  margin: auto 0.5rem;
-}
-
 .question {
   color: var(--dark-blue);
   font-weight: 400;
+  font-size: 1rem;
 }
 
 .question-wrapper {
@@ -13,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  border-bottom: 1px solid hsla(229, 8%, 60%, 30%);
 }
 
 .answer-wrapper {
@@ -21,10 +18,21 @@
 
 .answer {
   line-height: 2;
+  color: var(--dark-blue);
 }
 
 @media (min-width: 768px) {
-  .qna__item:first-child {
+  .question-wrapper:first-child {
     border-top: 1px solid hsla(229, 8%, 60%, 30%);
+  }
+
+  .question-wrapper:hover,
+  .question:hover {
+    cursor: pointer;
+    color: var(--primary-red);
+  }
+
+  .answer {
+    font-size: 1rem;
   }
 }

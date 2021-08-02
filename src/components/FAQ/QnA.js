@@ -9,14 +9,14 @@ export const QnA = (props) => {
 
   const questionClickHandler = () => setActiveQuestion(!activeQuestion);
   return (
-    <div className="qna__item">
-      <div className="question-wrapper" onClick={questionClickHandler}>
-        <h4 className="question">{props.question}</h4>
+    <>
+      <dt className="question-wrapper" onClick={questionClickHandler}>
+        <button className="question">{props.question}</button>
         <img src={arrow} alt="" />
-      </div>
-      <div className={activeQuestion ? 'answer-wrapper' : 'hidden'}>
+      </dt>
+      <dd className={activeQuestion ? 'answer-wrapper' : 'hidden'}>
         <p className="answer">{props.answer}</p>
-      </div>
-    </div>
+      </dd>
+    </>
   );
 };

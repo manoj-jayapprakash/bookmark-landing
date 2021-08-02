@@ -23,15 +23,18 @@
   border-radius: 5px;
   box-shadow: var(--shadow);
   color: var(--white);
-  border: 2px solid transparent;
 }
 
 .btn-blue {
   background-color: var(--primary-blue);
+  border: 2px solid transparent;
+  font-weight: 500;
 }
 
 .btn-red {
   background-color: var(--primary-red);
+  border: 2px solid transparent;
+  font-weight: 500;
 }
 
 .hidden {
@@ -50,7 +53,6 @@
     background-color: var(--white);
     color: var(--primary-blue);
     cursor: pointer;
-    font-weight: 500;
   }
 
   .btn-red:hover {
@@ -58,6 +60,5 @@
     background-color: var(--white);
     color: var(--primary-red);
     cursor: pointer;
-    font-weight: 500;
   }
 }

@@ -38,11 +38,11 @@ export const FAQ = () => {
           answered please feel free to email us.
         </p>
       </div>
-      <div className="section__body faqs">
+      <dl className="section__body faqs">
         {qNa.map((q) => (
           <QnA key={q.id} question={q.question} answer={q.answer} />
         ))}
-      </div>
+      </dl>
       <button className="btn btn-blue">More Info</button>
     </section>
   );

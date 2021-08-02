@@ -14,13 +14,9 @@ export const Hero = () => {
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
-        <div className="hero__links">
-          <a href="#download" className="hero__link hero__link-chrome">
-            Get it on Chrome
-          </a>
-          <a href="#download" className="hero__link hero__link-firefox">
-            Get it on Firefox
-          </a>
+        <div className="hero__actions">
+          <button className="btn btn-blue btn-chrome">Get it on Chrome</button>
+          <button className="btn btn-firefox">Get it on Firefox</button>
         </div>
       </div>
     </section>

@@ -14,15 +14,12 @@
   display: inline-block;
 }
 
-.hero__link-chrome {
-  background-color: var(--primary-blue);
-  color: var(--white);
-  margin-right: 1rem;
-}
-
-.hero__link-firefox {
+.btn-firefox {
   background-color: var(--gray);
   color: var(--dark-blue);
+  margin-left: 1rem;
+  border: 2px solid transparent;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
@@ -48,5 +45,10 @@
 
   .hero__title {
     font-size: 3rem;
+  }
+
+  .btn-firefox:hover {
+    cursor: pointer;
+    border: 2px solid var(--dark-blue);
   }
 }

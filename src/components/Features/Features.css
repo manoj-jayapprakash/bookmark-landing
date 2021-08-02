@@ -32,6 +32,11 @@
     padding: 2em;
   }
 
+  .btn-features__tab:hover {
+    cursor: pointer;
+    color: var(--primary-red);
+  }
+
   .btn-features__tab-one {
     border-top: none;
   }

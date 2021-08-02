@@ -91,13 +91,13 @@
     background-color: var(--primary-red);
     border: 2px solid var(--primary-red);
     font-size: 0.8rem;
+    font-weight: 500;
   }
 
   .btn-login:hover {
     background-color: var(--white);
     color: var(--primary-red);
     cursor: pointer;
-    font-weight: 500;
   }
 
   .nav__link-ld {
