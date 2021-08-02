@@ -17,8 +17,7 @@ function App() {
       <Download />
       <FAQ />
       <Contact />
-      {/*
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

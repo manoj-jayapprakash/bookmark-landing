@@ -1,9 +1,47 @@
 import './Footer.css';
 
+import { Logo } from '../Logo';
+import { Social } from '../Social/Social';
+
 export const Footer = () => {
   return (
-    <footer className="footer">
-      <h2>Footer</h2>
+    <footer className="footer ">
+      <div className="footer-main container">
+        <ul className="footer__logo">
+          <li>
+            <Logo theme="dark" />
+          </li>
+        </ul>
+        <ul className="footer__links">
+          <li className="footer__item">
+            <a href="#features" className="footer__link">
+              Features
+            </a>
+          </li>
+          <li className="footer__item">
+            <a href="#features" className="footer__link">
+              Pricing
+            </a>
+          </li>
+          <li className="footer__item">
+            <a href="#features" className="footer__link ">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <Social cssClass="social" />
+      </div>
+      <p class="attribution">
+        Challenge by{' '}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{' '}
+        <a href="https://www.frontendmentor.io/profile/manojmj18">
+          Manoj Jayapprakash
+        </a>
+        .
+      </p>
     </footer>
   );
 };
