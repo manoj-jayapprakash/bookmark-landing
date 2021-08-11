@@ -28,7 +28,7 @@ export const Download = () => {
     },
   ];
   return (
-    <section className="download container">
+    <section className="download container" id="download">
       <div className="section__head">
         <h2 className="section__title">Download the extension</h2>
         <p className="section__description">

@@ -1,16 +1,34 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 1.5rem;
-  align-items: center;
+  padding: 1rem;
+  padding-top: 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  z-index: 1;
+  margin-bottom: 1.5rem;
 }
 
-.header.active {
+.header-bg {
   background-color: var(--dark-blue);
 }
 
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__ld {
+  display: none;
+}
+
 @media (min-width: 768px) {
-  .nav-btn {
+  .btn-nav {
     display: none;
+  }
+
+  .nav__ld {
+    display: flex;
   }
 }

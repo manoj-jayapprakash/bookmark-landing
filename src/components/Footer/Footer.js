@@ -5,13 +5,16 @@ import { Social } from '../Social/Social';
 
 export const Footer = () => {
   return (
-    <footer className="footer ">
+    <footer className="footer">
       <div className="footer-main container">
         <ul className="footer__logo">
           <li>
-            <Logo theme="dark" />
+            <a href="#hero" className="footer__link">
+              <Logo logoBgColor="blue" textColor="white" />
+            </a>
           </li>
         </ul>
+
         <ul className="footer__links">
           <li className="footer__item">
             <a href="#features" className="footer__link">
@@ -19,21 +22,21 @@ export const Footer = () => {
             </a>
           </li>
           <li className="footer__item">
-            <a href="#features" className="footer__link">
+            <a href="#contact" className="footer__link">
               Pricing
             </a>
           </li>
           <li className="footer__item">
-            <a href="#features" className="footer__link ">
+            <a href="#contact" className="footer__link ">
               Contact
             </a>
           </li>
         </ul>
         <Social cssClass="social" />
       </div>
-      <p class="attribution">
+      <p className="attribution">
         Challenge by{' '}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>
         . Coded by{' '}

@@ -30,7 +30,7 @@ export const FAQ = () => {
     },
   ];
   return (
-    <section className="faq container">
+    <section className="faq container" id="faq">
       <div className="section__head">
         <h2 className="section__title">Frequently Asked Questions</h2>
         <p className="section__description">

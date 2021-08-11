@@ -41,7 +41,7 @@ export const Features = () => {
   };
 
   return (
-    <section className="features container">
+    <section className="features container" id="features">
       <div className="section__head">
         <h2 className="section__title">Features</h2>
         <p className="section__description">

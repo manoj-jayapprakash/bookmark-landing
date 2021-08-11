@@ -6,20 +6,13 @@
   margin: 1.5rem 0;
 }
 
-.hero__link {
-  box-shadow: var(--shadow);
-  font-size: 14px;
-  padding: 1em;
-  border-radius: var(--border-radius-default);
-  display: inline-block;
-}
-
 .btn-firefox {
   background-color: var(--gray);
   color: var(--dark-blue);
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   border: 2px solid transparent;
   font-weight: 500;
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -40,11 +33,16 @@
 
   .hero__text {
     text-align: left;
+
     width: 50%;
   }
 
   .hero__title {
     font-size: 3rem;
+    line-height: 1.1;
+  }
+  .btn-firefox {
+    margin-left: 1rem;
   }
 
   .btn-firefox:hover {

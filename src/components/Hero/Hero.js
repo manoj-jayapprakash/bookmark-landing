@@ -4,7 +4,7 @@ import heroImage from '../../assets/images/illustration-hero.svg';
 
 export const Hero = () => {
   return (
-    <section className="hero container">
+    <section className="hero container" id="hero">
       <div className="hero__image-wrapper">
         <img src={heroImage} alt="" className="hero__image" />
       </div>

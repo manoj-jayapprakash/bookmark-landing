@@ -18,7 +18,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="container contact__body">
         <p className="contact__description">35,000+ already joined</p>
         <h2 className="contact__title">
