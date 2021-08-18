@@ -19,7 +19,6 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 ### Links
 
 - https://github.com/manoj-jayapprakash/bookmark-landing
--
 
 ### Built with
 
