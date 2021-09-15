@@ -35,11 +35,11 @@ export const Footer = () => {
         <Social cssClass="social" />
       </div>
       <p className="attribution">
-        Challenge by{' '}
+        Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>
-        . Coded by{' '}
+        . Coded by
         <a href="https://www.frontendmentor.io/profile/manojmj18">
           Manoj Jayapprakash
         </a>
