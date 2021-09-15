@@ -14,12 +14,12 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 
 ### Screenshot
 
-[Screenshot] (./Bookmark Manager.png)
+[Screenshot] (./Bookmark.png)
 
 ### Links
 
-- https://github.com/manoj-jayapprakash/bookmark-landing
-- mjcreations-bookmark-manager.netlify.app
+- Solution url: https://github.com/manoj-jayapprakash/bookmark-landing
+- Live site url: https://mjcreations-bookmark-manager.netlify.app/
 
 ### Built with
 
