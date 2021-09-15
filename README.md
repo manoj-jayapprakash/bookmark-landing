@@ -14,7 +14,7 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![Screenshot] (./Bookmark.png)
+![Bookmark] (./Bookmark.png)
 
 ### Links
 
